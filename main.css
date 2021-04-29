@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+.nav{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+}
+.navbar{
+    float: right;
+    display: flex;
+    font-family: sans-serif;
+    /* display: inline; */
+}
+.p{
+    font-weight: lighter;
+}
+a{
+    color: white;
+    text-decoration:none;
+    padding: 10px 15px;
+    margin-top: 19px;
+    margin-left: 10px; 
+    margin-right: 10px;
+    background-color: red;
+    border-radius: 19px;
+    border: 1.5px solid red;
+    /* word-spacing: 10px; */
+     display: flex;
+}
+.logo{
+  width:190px;
+  height:50px;
+  color: white;
+  float: left;
+  padding: 10px;
+}
+a:hover{
+    color: orange;
+    transition:0.6s;
+}
+.class{
+    margin:60px;
+    width: 50%;
+    height:100px;
+    float: left;
+    /* background-color: rgb(34, 33, 30); */
+}
+.clas{
+    /* float:right; */
+    /* display: flex; */
+    width: 550px;
+    height: 370px;
+    display: flex;
+    margin-top: -20%;
+    margin-left: 110%;
+    /* margin-top: 130px; */
+    /* position: absolute; */
+    /* transform: translate(-50%,-50%); */
+/* justify-content: space-around; */
+/* align-items: center; */
+/* text-justify: auto; */
+}
+.Heading{
+    padding-top: 50px;
+}
+span{
+    color: red;
+    text-decoration: underline;
+}
+p
+{
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+button{
+    margin-top: 10px;
+    border: 5px solid red;
+    background-color: red;
+    font-size: 15px;
+    border-radius:5px;
+    color: white;
+}
+button:hover{
+    color:orange;
+    transition: 0.5s;
+}
+.courses{
+    float:left;
+    margin-top:25%;
+    text-align: center;
+}
+.course-para{
+ text-align: center;
+ font-weight: lighter;
+}
+.List{
+ float:left;
+ align-items: center;
+ display: flex;
+ padding-left: 20px;
+ margin: 20px;
+}
+.Lists{
+    margin-top: 40px;
+    margin-left: 130px;
+    text-align: center;
+}
+.subhead{
+    text-align: center;
+    padding:20px 1px;
+    align-items: center;
+    font-weight: lighter;
+}
+.final{
+    float:left;
+    width: 50%;
+    height:70px;
+    padding-left: 50px;
+}
+.img{
+    float: left;
+    width: 580px;
+    height: 340px;
+    padding-top: 20px;
+    display: flex;
+    margin-left:108%;
+    margin-top: -20%; 
+    
+}
+.smart{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.sp{
+    color: red;
+}
+.finalll{
+    font-weight: lighter;
+}
+.footer{
+    width: 100%;
+    height:100%;
+    background-color: black;
+    float: left;
+    margin-top: 40%;
+    color: white;
+      display: flex; 
+      text-align: center; 
+      padding-left: 40%;
+      padding-right: 20%;
+}
+.location{
+     /* text-align: center;  */
+     text-decoration: none;
+     padding: 20px;
+
+     /* display: flex */
+}
+.city ul li a{
+    text-decoration:none;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+.Social{
+    text-align: center;
+}
+.location{
+    padding-right: 10%;
+}
